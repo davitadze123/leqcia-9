@@ -4,80 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style/main.css">
-    <title>Lecture 9</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <title>lesson9</title>
 </head>
 <body>
     <div class="container">
-        <header> 
-            <nav class="logo">
-               <a href="#"> <img class="onee" src="images/logo.png" alt="html"></a>
-                <ul>
-                    <li><a href="#"> პროექტის შესახებ</a></li>
-                    <li><a href="#">მოთხოვნები</a></li>
-                    <li><a href="#">EXPLORE</a></li>
-                    <li><a href="#">შესვლა</a></li>
-                    <img src="images/search.png" alt="html">
-                </ul>
-            </nav>
+        <header>
+            <div class="header-one">
+                <div>
+                    <a href="index.html">
+                        <img class="logo" src="images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="navbar">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">პროექტის შესახებ</a>
+                            </li>
+                            <li>
+                                <a href="#">მოთხოვნები</a>
+                            </li>
+                            <li>
+                                <a href="#">EXPLORE</a>
+                            </li>
+                            <li>
+                                <a href="#">შესვლა</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div  class="search">
+                    <img src="images/search.svg" alt="search">
+                </div>
+            </div>
         </header>
-        <img class="black" src="images/img5.png" alt="html">
-    </div>
-    <section class="container">
-        <h1 class="popular">პოპულარული სტატიები</h1>
-        <div class="blog">
-            <div class="one">
-          <img class="photo" src="images/mobile.png" alt="html">
-          <h2>სტატიის სათაური</h2>
-          <p>ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი <br>დაეთმობა ამ სტატიის მოკლე აღწერას </p>
-          <a href="#"> <img class="more" src="images/more.png"></a>
-      </div>
-      <div class="two">
-          <img class="photo" src="images/img6.png" alt="html">
-          <h2>სტატიის სათაური</h2>
-          <p>ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი <br>დაეთმობა ამ სტატიის მოკლე აღწერას </p>
-          <a href="#"> <img class="more" src="images/more.png"></a>
-      </div>
-      <div class="theer">
-          <img class="photo" src="images/img4.png" alt="html">
-          <h2>სტატიის სათაური</h2>
-          <p>ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი <br>დაეთმობა ამ სტატიის მოკლე აღწერას </p>
-          <a href="#"> <img class="more" src="images/more.png"></a>
-      </div>
-  </div>
-  <div>
-      <img class="load" src="images/Group 2.png" alt="html">
-  </div>
-    </section>
-    <section class="container">
-        <h1 class="and">ბოლოს დამატებული</h1>
-        <div class="blog">
-            <div class="one">
-          <img class="photo" src="images/img1.png" alt="html">
-          <h2>სტატიის სათაური</h2>
-          <p>ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი <br>დაეთმობა ამ სტატიის მოკლე აღწერას </p>
-          <a href="#"> <img class="more" src="images/more.png"></a>
-      </div>
-      <div class="two">
-          <img class="photo" src="images/img3.png" alt="html">
-          <h2>სტატიის სათაური</h2>
-          <p>ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი <br>დაეთმობა ამ სტატიის მოკლე აღწერას </p>
-          <a href="#"> <img class="more" src="images/more.png"></a>
-      </div>
-      <div class="theer">
-          <img class="photo" src="images/img2.png" alt="html">
-          <h2>სტატიის სათაური</h2>
-          <p>ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი <br>დაეთმობა ამ სტატიის მოკლე აღწერას </p>
-          <a href="#"> <img class="more" src="images/more.png"></a>
-      </div>
-      </div>
-    </section>
-    <div class="container">
-    <section class="footer-sec">
+        <div class="slider">
+            <img class="slider1" src="images/img1.jpg" alt="slider1">
+            <img class="slider2" src="images/yannis-papanastasopoulos.jpg" alt="slider2">
+        </div>
+        <section class="last-articles">
+            <h2>პოპულარული სტატიები</h2>
+            <div class=popular>
+                <div class="article-box">
+                    <img src="images/neonbrand2.jpg" alt="playng-on-guitar">
+                    <h3>სტატიის სათაური</h3>
+                    <p class="text">ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი 
+                    დაეთმობა ამ სტატიის მოკლე აღწერას </p>
+                    <a href="#">more</a>
+                </div>
+                <div class="article-box">
+                    <img src="images/neonbrand3.jpg" alt="playng-on-guitar">
+                    <h3>სტატიის სათაური</h3>
+                    <p class="text">ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი 
+                    დაეთმობა ამ სტატიის მოკლე აღწერას </p>
+                    <a href="#">more</a>
+                </div>
+                <div class="article-box">
+                    <img src="images/neonbrand.jpg" alt="playng-on-guitar">
+                    <h3>სტატიის სათაური</h3>
+                    <p class="text">ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი 
+                    დაეთმობა ამ სტატიის მოკლე აღწერას </p> 
+                    <a href="#">more</a>
+                </div>
+            </div>
+        </section>
+        <div class="load-more">Load More</div>
+        <section class="articles">
+            <h2>ბოლოს დამატებული</h2>
+            <div class=last-articles>
+                <div class="article-box">
+                    <img src="images/andrew-spencer.jpg" alt="playng-on-guitar">
+                    <h3>სტატიის სათაური</h3>
+                    <p class="text">ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი 
+                    დაეთმობა ამ სტატიის მოკლე აღწერას </p>
+                    <a href="#">more</a>
+                </div>
+                <div class="article-box">
+                    <img src="images/gonzalo-poblete.jpg" alt="playng-on-guitar">
+                    <h3>სტატიის სათაური</h3>
+                    <p class="text">ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი 
+                    დაეთმობა ამ სტატიის მოკლე აღწერას </p>
+                    <a href="#">more</a>
+                </div>
+                <div class="article-box">
+                    <img src="images/bruce-dixon.jpg" alt="playng-on-guitar">
+                    <h3>სტატიის სათაური</h3>
+                    <p class="text">ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი 
+                    დაეთმობა ამ სტატიის მოკლე აღწერას </p> 
+                    <a href="#">more</a>
+                </div>
+            </div>
+        </section>
+        <div class="load-more">Load More</div>
         <footer>
             <div class="footer-box">
                 <a href="index.html">
-                    <img class="logo" src="images/Group 3.png" alt="html">
+                    <img class="logo" src="images/Group 3.svg" alt="logo">
                 </a>
                 <div class="contact">
                     <h6>კონტაქტი</h6>
@@ -92,15 +117,14 @@
                 </div>
                 <div class="icons">
                     <a href="https://www.facebook.com/">
-                        <img src="images/fb.png" alt="html">
+                        <img src="images/facebook.svg" alt="facebook">
                     </a>
                     <a href="https://www.instagram.com/">
-                        <img src="images/insta.png" alt="instagram">                
+                        <img src="images/instagram.svg" alt="instagram">                
                     </a>
                 </div>
             </div>
         </footer>
-    </section>
-</div>
+    </div>
 </body>
 </html>

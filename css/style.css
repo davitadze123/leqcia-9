@@ -1,128 +1,128 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    max-width:1920px;
+    width:100%;
 }
-header{
-    box-sizing: border-box;
-    display: block;
-}
-ul{
-    list-style-type: none;
+.header-one, .header-one ul{
     display: flex;
-    justify-content: space-between;
-    width: 60%;
-}
-ul a{
-    text-decoration: none;
-    color: #707070;
-}
-.onee{
-    margin: 10px 0 0 0;
-}
-.logo{
-    display: flex;
-    margin-left: 20px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+.navbar a{
+    margin-left:50px;
+    font-size:20px;
+    color:#707070;
+    font-family: ArchyEDT;
 }
 .container{
-    max-width: 1640px;
-    width: 100%;
-    margin: 0 auto;
-    color: #ffffff;
+    max-width:1920px;
+    width:100%;
+    margin:0 auto;
 }
-.black{
-    max-width: 1640px;
-    width: 100%;
-    max-height: 616;
-    margin: 25px;
-    margin-left: 20px;
-
+header{
+    position: fixed;
+    z-index:1;
+    top:0;
+    max-width:1920px;
+    width:100%;
+    padding:56px 140px;
 }
-.popular{
+.logo{
+    width:122px;
+}
+.navbar{
+    margin-left:30%;
+}
+.search{
+    width:25.5px;
+    height: 25.5px;
+}
+.slider{
+    margin-top:207px;
+    display: flex;
+    justify-content: center;
+}
+.slider1{
+    max-width:1640px;
+    width:100%;
+}
+.slider2{
+    max-width: 1024px;
+    width:100%;
+}
+/* end of header and first section */
+.last-articles{ 
+    max-width:1641px;
+    width:100%;
+    margin:auto;
+    margin-top:138px; 
+}
+.last-articles h2{
+    margin-bottom: 70px;
+    color:#707070;
     font-size: 40px;
-    color: #707070;
-    justify-content: space-between;
+    font-family: ArchyEDT;
+    text-shadow: 1px 1px #707070;
 }
-.box{
+.popular, .last-articles{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
 }
-.blog{
-    display: flex;
+.article-box{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    max-width:483px;
+    margin-right:5%;
+    position: relative;
 }
-.photo{
-    max-width: 483px;
-    max-height: 282;
+.article-box:last-child{
+    margin-right:0;
 }
-.one{
-    background-color: #fcfcfc;
-    margin: 40px;
-    height: 100px;
+.article-box img{
+    max-width:483px;
+    width:100%;
 }
-.two{
-    background-color: #fcfcfc;
-    margin: 40px;
-    height: 100px;
+.article-box h3{
+    width:282px;
+    margin:20px 189px 33px 12px;
+    color:#707070;
+    font-size: 30px;
+    font-family: ArchyEDT;
+    
 }
-.theer{
-    background-color: #fcfcfc;
-    margin: 40px;
-    height: 100px;
+.text{
+    max-width:446px;
+    color:#707070;
+    font-size: 18px;
+    height:48px;
+    font-family: Zapf Dingbats;
+    margin-bottom:73px;
+    margin-left:12px;
+    
 }
-h1{
-    color: #707070;
-    font-size: 40px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 30px
+.article-box a{
+    display: block;
+    position:absolute;
+    right:13px;
+    bottom:35px;
+    color:#707070;
+    font-size: 24px;
+    font-family: ArchyEDT;
+    width:56px;
 }
-
-.and{
-    color: #707070;
-    font-size: 40px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 30px
+.load-more{
+    max-width:145px;
+    border-bottom: 1px solid #707070;
+    color:#707070;
+    font-size: 30px;
+    font-family: ArchyEDT;
+    margin:56px auto;
 }
-h2{
-    margin-top: 20px;
-    margin-bottom:  20px;
-    color: #707070;
-
-}
-p{
-    font-size: 20px;
-    margin-top: 20px;
-    color: black;
-}
-.more{
-    margin-top: 100px;
-    margin-left: 410px;
-}
-.load{
-    margin-top: 500px;
-    margin-left: 800px;
-}
-.footer-sec{
-    display: flex;
-    margin-top: 600px;
-    background-color: black;
-}
-.box{
-    margin: 50px;
-    margin-left: 500px
-}
+/* end of sections */
 footer{
     max-width:1920px;
     width:100%;
     min-height: 207px;
-    background-color: black;
+    background-color: #2E2E2E;
     padding:56px 140px;
 }
 .footer-box{
@@ -205,7 +205,7 @@ footer{
     }
     .articles h2{
         text-align: center;
-        font-size:50px;
+        font-size:30px;
         margin-bottom:31px;
     }
     .article-box h3{
@@ -235,3 +235,4 @@ footer{
     .address{
         order:-1;
     }
+}
