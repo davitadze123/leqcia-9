@@ -161,12 +161,12 @@ footer{
     color: #FFFFFF;
     font-family: ArchyEDT;
 }
-.icons {
+.info {
     width:122px;
     display: flex;
     justify-content: space-between;
 }
-.icons img{
+.info img{
     width:43.95px;
 }
 
